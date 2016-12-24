@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Javascript  DrumBox</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1> My Groov' Box </h1>
+	<div class="keys">
+
+		<div data-key="75" class="key">
+			<kbd>K</kbd> 
+			<sapn class="sound">Kick</sapn>
+		</div>
+
+		<div data-key="83"  class="key">
+			<kbd>S</kbd>
+			<span class="sound">Snare</span>
+		</div>
+
+		<div kkkkdata-key="79" class="key">
+			<kbd>O</kbd>
+			<span class="sound">Open Hi Hat</span>
+		</div>
+
+		<div data-key="67" class="key">
+			<kbd>C</kbd>
+			<span class="sound">Clap</span>
+		</div>
+
+	</div>
+
+	<audio data-key="75" src="sounds/kick.wav"></audio>
+	<audio data-key ="83" src="sounds/snare.wav"></audio>
+	<audio data-key="79" src="sounds/openhat.wav"></audio>
+	<audio data-key ="67" src="sounds/clap.wav"></audio>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
